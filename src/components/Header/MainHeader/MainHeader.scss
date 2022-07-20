@@ -1,0 +1,44 @@
+.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 60px;
+  background-color: #fff;
+  font-size: 14px;
+
+  &__school {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    margin: 0 115px 0 233px;
+    min-width: 64px;
+    text-transform: uppercase;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  &__nav > p {
+    line-height: 140%;
+    text-transform: uppercase;
+
+    &:nth-child(4) {
+      font-weight: 700;
+      color: #fff;
+      background: #A6192E;
+      padding: 6px 14px;
+    }
+  }
+
+  &__profile {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-left: 312px;
+    margin-right: 47px;
+  }
+}

@@ -1,0 +1,17 @@
+.info {
+  padding: 20px 0 24px 20px;
+  background-color: #F2F2F2;
+
+  &__name {
+    text-transform: uppercase;
+    
+  }
+
+  &__hr {
+    width: 1102px;
+    height: 1px;
+    
+    background: #A6192E;
+    
+  }
+}

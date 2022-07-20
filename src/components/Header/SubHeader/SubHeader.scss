@@ -1,0 +1,25 @@
+.subheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+
+  height: 40px;
+  background-color: #5B5B5B;
+  color: #C0C0C0;
+  font-size: 12px;
+
+  & > p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    line-height: 16.8px;
+    text-transform: uppercase;
+
+    &:last-child {
+      gap: 9px;
+    }
+  }
+
+}
